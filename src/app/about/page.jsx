@@ -193,7 +193,7 @@ export default async function About() {
     <>
       <PageIntro eyebrow="About us" title="10x programmers, without 10x the cost">
         <p>
-          Fortune 500 or well-funded startups usually snatch up all the 10x programemrs. Turns out, not all of them.
+          Fortune 500 or well-funded startups usually snatch up all the 10x programmers. Turns out, not all of them.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>

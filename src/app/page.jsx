@@ -177,6 +177,9 @@ export default async function Home() {
           <p className="mt-6 text-xl text-neutral-600">
             {"Ship fast, or software that will last? Now, you don't have to choose."}
           </p>
+          <p className="mt-6 text-xl text-neutral-600">
+            {"Fortune 500 or well-funded startups usually snatch up all the 10x programmers. Turns out, not all of them."}
+          </p>
           
         </FadeIn>
       </Container>
