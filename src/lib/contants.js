@@ -1,0 +1,1 @@
+export const CONTACT_HREF = "mailto:hello@decalabs.xyz"

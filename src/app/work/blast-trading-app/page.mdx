@@ -1,0 +1,80 @@
+import logo from '@/images/clients/blast-trading-app/logomark-dark.png'
+import imageHero from './hero.png'
+import imageCeo from './ceo.png'
+
+export const caseStudy = {
+  client: 'Blast Trading App',
+  title: 'Trade social trends',
+  description:
+    'Leveraging the security of the Blast Ethereum L2 chain, the new trading app allowed users to buy and sell positions in social trends, and profit by being early.',
+  summary: [
+    'Blast Trading App was a novel crypto web app which allowed users to buy and sell positions in social trends.',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2024-02',
+  endDate: '2024-04',
+  service: 'Backend, DevOps, Fullstack',
+  testimonial: {
+    author: { name: 'Simon', role: 'CEO of Blast Trading App' },
+    content:
+      'Honestly, we were a bit desperate when we reached out. They managed to turn the entire app around and fix our broken backend in time for our launch date. We were very impressed, I couldn\'t recommend them more to anyone in a pinch.',
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Overview
+
+Blast Trading App approached us in a state of desperation.
+
+Their backend codebase was in shambles. Their backend dev wasn't up to the task but had strung them along for weeks. Time was running out.
+
+Their frontend contractors were frustrated, nothing was ready for them to integrate with. The marketing team didn't know how much longer they could convince early users to keep waiting for the big launch date.
+
+Deca Labs worked quickly to in a matter of weeks to:
+
+- work with the existing team to develop a shared, comprehensive & well documented spec
+- take over the existing codebase and make the necessary fixes to build the missing functionality
+- fix web crawling for social trend data from X / Twitter
+- add missing API docs so frontend devs could start building again
+- build admin dashboard UI so management could operate the app without devs
+- add CI checks on every PR to ensure safe code changes
+- add tests for all endpoints to maintain confidence with every deploy
+- add secure JWT authentication and address existing critical security vulnerabilities
+- work with frontend devs to test the app end-to-end before the launch day
+
+The Blast Trading App was able to launch successfully sooner than expected thanks to the quick work from Deca Labs to elevate their codebase to professional and production-ready engineering standards. 
+
+*For privacy reasons, the CEO requested anonymizing both their name and the company name in this portfolio profile.*
+
+## What we did
+
+<TagList>
+  <TagListItem>Backend (Django / Python)</TagListItem>
+  <TagListItem>Database (PostgreSQL)</TagListItem>
+  <TagListItem>Authentication (JWT)</TagListItem>
+  <TagListItem>CI (Github Actions)</TagListItem>
+  <TagListItem>Website Crawling</TagListItem>
+  <TagListItem>Admin Dashboards</TagListItem>
+  <TagListItem>Crypto</TagListItem>
+</TagList>
+
+<Blockquote
+  author={{ name: 'Simon', role: 'CEO of Blast Trading App' }}
+  image={{ src: imageCeo }}
+>
+  Honestly, we were a bit desperate when we approached Deca Labs.
+  They managed to turn the entire app around and fix our broken backend in time for our launch date.
+  We were very impressed, I couldn't recommend them more to anyone in a pinch.
+</Blockquote>
+
+{/* <StatList>
+  <StatListItem value="40k" label="Contacts Crawled" />
+  <StatListItem value="58s" label="Efficient CI/CD" />
+  <StatListItem value="$107/m" label="Economical Deployment" />
+  <StatListItem value="$976/m" label="Saved Cloud Costs" />
+</StatList> */}

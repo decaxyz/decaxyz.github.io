@@ -1,0 +1,76 @@
+import logo from '@/images/clients/pressbook/logomark-dark.png'
+import imageHero from './hero.png'
+import imageCeo from './ceo.png'
+
+export const caseStudy = {
+  client: 'Pressbook',
+  title: 'Searchable journalist database',
+  description:
+    'Press relations teams need to be able to contact the press. Pressbook makes it easier with more accurate data and a better user experience.',
+  summary: [
+    'Press relations teams need to be able to contact the press.',
+    'Pressbook makes it easier with more accurate data and a better user experience.',
+  ],
+  logo,
+  image: { src: imageHero },
+  date: '2023-11',  
+  endDate: '2024-04',
+  service: 'Fullstack, Backend, Frontend, DevOps',
+  testimonial: {
+    author: { name: 'Brian', role: 'Founder, Pressbook' },
+    content:
+      'I had an idea for a better journalist database. Deca Labs was able to build it and were professional and competent. No complaints.'
+  },
+}
+
+export const metadata = {
+  title: `${caseStudy.client} Case Study`,
+  description: caseStudy.description,
+}
+
+## Overview
+
+From his role in marketing & sales, Brian had tried many different PR database offerings and found them unsatisfactory.
+
+Existing dashboards often had out-of-date contact data, and a hard to use user experience.
+
+Brian approached Deca Labs early on to be the primary technology partner to build a solution.
+
+Over 5 months, Deca Labs delivered:
+
+- robust website crawling to collect up-to-date contact data
+- an enterprise-grade backend for indexing and a flexible retrieval API
+- a mobile-friendly modern dashboard for query of contact data by users
+- integration with Stripe for recurring user payments
+- admin dashboard UI so founder could operate the app without devs
+- deployed the entire infrastructure extremely cost-effectively to enable ongoing SaaS profitability
+- robust CI/CD and parallel crawling infrastructure to support safe, fast deployments, and ongoing crawling capabilities
+- uptime monitoring, metrics, and alerting to ensure ongoing observability and operational excellence
+
+Pressbook was able to launch a successful SaaS in record time thanks to the technical expertise and execution of Deca Labs.
+
+*For privacy reasons, the CEO requested anonymizing both their name and the company name in this portfolio profile.*
+
+## What we did
+
+<TagList>
+  <TagListItem>Frontend (Hotwire)</TagListItem>
+  <TagListItem>Backend (Kotlin)</TagListItem>
+  <TagListItem>CI/CD (BuildKite)</TagListItem>
+  <TagListItem>DevOps</TagListItem>
+   <TagListItem>Website Crawling</TagListItem>
+</TagList>
+
+<Blockquote
+  author={{ name: 'Brian', role: 'Founder, Pressbook' }}
+  image={{ src: imageCeo }}
+>
+  I had an idea for a better journalist database. Deca Labs was able to build it and were professional and competent. No complaints.
+</Blockquote>
+
+<StatList>
+  <StatListItem value="40k" label="Contacts Crawled" />
+  <StatListItem value="93s" label="Efficient CI/CD" />
+  <StatListItem value="$107/m" label="Economical Deployment" />
+  <StatListItem value="$976/m" label="Saved Cloud Costs" />
+</StatList>
